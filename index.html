@@ -1,1 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light">
+  <title>fuwii | Tech Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <svg class="ink-filter" aria-hidden="true" focusable="false">
+    <filter id="ink-bleed">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="3" seed="8" result="noise"></feTurbulence>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="9"></feDisplacementMap>
+    </filter>
+  </svg>
 
+  <div class="ink-splatters" aria-hidden="true">
+    <span class="ink-streak streak-blue streak-1"></span>
+    <span class="ink-streak streak-orange streak-2"></span>
+    <span class="ink-streak streak-purple streak-3"></span>
+    <span class="ink-streak streak-orange streak-4"></span>
+    <span class="ink-streak streak-asphalt streak-5"></span>
+    <span class="ink-streak streak-blue streak-6"></span>
+    <span class="ink-streak streak-orange streak-7"></span>
+    <span class="ink-streak streak-cyan streak-8"></span>
+    <span class="ink-streak streak-pink streak-9"></span>
+    <span class="ink-streak streak-lime streak-10"></span>
+  </div>
+
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Portfolio navigation">
+      <a class="brand" href="#top" aria-label="fuwii Tech Portfolio home">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-name">fuwii</span>
+      </a>
+
+      <p class="nav-title">Tech Portfolio</p>
+    </nav>
+
+    <section id="top" class="hero" aria-labelledby="portfolio-title">
+      <p class="eyebrow">IBDP Computer Science</p>
+      <h1 id="portfolio-title">Tech Portfolio</h1>
+      <p class="hero-copy">
+        A bright, ink-painted portfolio exploring networks, processor evolution,
+        and digital logic.
+      </p>
+    </section>
+  </header>
+
+  <main>
+    <section id="phase-1" class="portfolio-section ink-card" aria-labelledby="phase-1-title">
+      <p class="phase-label">Phase 1</p>
+      <h2 id="phase-1-title">Local Intranet Architecture</h2>
+      <p>
+        Placeholder: Explain the difference between a router and a switch in a local intranet.
+        Describe how switches connect devices inside the same network, while the router directs
+        traffic between networks and the internet. Add a topology diagram showing how laptops,
+        servers, printers, switches, and the router connect together.
+      </p>
+    </section>
+
+    <section id="phase-2" class="portfolio-section ink-card" aria-labelledby="phase-2-title">
+      <p class="phase-label">Phase 2</p>
+      <h2 id="phase-2-title">The Moore's Law Photographic Essay</h2>
+
+      <div class="image-grid" aria-label="Moore's Law image placeholders">
+        <figure class="image-placeholder">
+          <div class="paint-frame" role="img" aria-label="Placeholder for early computing hardware image">
+            Image Placeholder 1
+          </div>
+          <figcaption>Early computing hardware</figcaption>
+        </figure>
+
+        <figure class="image-placeholder">
+          <div class="paint-frame" role="img" aria-label="Placeholder for modern microprocessor image">
+            Image Placeholder 2
+          </div>
+          <figcaption>Modern microprocessor design</figcaption>
+        </figure>
+
+        <figure class="image-placeholder">
+          <div class="paint-frame" role="img" aria-label="Placeholder for future chip image">
+            Image Placeholder 3
+          </div>
+          <figcaption>Future chip miniaturisation</figcaption>
+        </figure>
+      </div>
+
+      <p>
+        Placeholder analysis: Moore's Law describes how transistor counts have increased over time,
+        but modern processors face major heat and size constraints. As transistors become smaller,
+        it becomes harder to remove heat, control power use, and keep improving performance without
+        reaching physical limits.
+      </p>
+    </section>
+
+    <section id="phase-3" class="portfolio-section ink-card" aria-labelledby="phase-3-title">
+      <p class="phase-label">Phase 3</p>
+      <h2 id="phase-3-title">The Half-Adder Logic Gate Blueprint</h2>
+
+      <div class="logic-layout">
+        <div class="truth-table-panel">
+          <h3>Truth Table Placeholder</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>A</th>
+                <th>B</th>
+                <th>Sum</th>
+                <th>Carry</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+              <tr><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+              <tr><td>1</td><td>0</td><td>1</td><td>0</td></tr>
+              <tr><td>1</td><td>1</td><td>0</td><td>1</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="diagram-panel" aria-label="Half-adder XOR and AND gate diagram placeholder">
+          <h3>XOR / AND Gate Diagram Placeholder</h3>
+          <div class="gate-blueprint">
+            <span class="input input-a">Input A</span>
+            <span class="input input-b">Input B</span>
+            <span class="gate xor">XOR Gate → Sum</span>
+            <span class="gate and">AND Gate → Carry</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Created by fuwii for IBDP Computer Science.</p>
+  </footer>
+</body>
+</html>
